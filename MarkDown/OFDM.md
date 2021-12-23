@@ -48,7 +48,7 @@ OFDM系统中的信道估计已经被研究透了。传统的评估方法，比�
 
 DNN模型的结构如图所示。总的来说，DNNs是ANNs为了增强表征或者识别能力增加隐藏层后的加深版本。网络的每一层都包含多个神经元，每一个神经元都有一个前一层神经元的加权和的非线性函数的输出。非线性函数可以是Sigmoid也可以是Relu。这样，神经网络z的输出就是一个输入数据I的非线性转换级联，数学表达式为：
 
-$$ \mathbf{z}=f(\mathbf{I}, \boldsymbol{\theta})=f^{(L-1)}\left(f^{(L-2)}\left(\cdots f^{(1)}(\mathbf{I})\right)\right)$$
+$$\mathbf{z}=f(\mathbf{I}, \boldsymbol{\theta})=f^{(L-1)}\left(f^{(L-2)}\left(\cdots f^{(1)}(\mathbf{I})\right)\right)$$
 
 其中L表示层的总数，θ表示神经网络的权重。模型的参数是神经元的权重，这是在线上部署之前要优化好的。最佳的权重通常是在一个已知期望输出的训练集上学习到的。
 
