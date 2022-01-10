@@ -34,5 +34,5 @@ $$
 
 定义3：给定流形 $M \subseteq R^D$ 和集合 $S=\left\{w_1,...w_N\right\}$ 其中 $w_i \in M$ 。S的induced Delaunay三角剖分 $D_S^(M)$ 由这样一个图定义，图中只有当节点 $w_I,w_j$ 的掩维诺多面体邻接的时候才会连接这两个点。比如说，一个图的邻接矩阵A，那么就有这样的属性：
 $$
-A_{i j}=1 \quad \Leftrightarrow \quad V_{i}^{(M)} \cap V_{j}^{(M)} \neq \emptyset \tag{2}
+A_{ij}=1 \quad \Leftrightarrow \quad V_{i}^{(M)} \cap V_{j}^{(M)} \neq \emptyset \tag{2}
 $$
