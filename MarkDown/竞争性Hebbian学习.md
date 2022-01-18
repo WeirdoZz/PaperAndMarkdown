@@ -71,7 +71,7 @@ $$
 $$
 
 其中 $\theta ()$ 是重载阶跃函数。
-=======
+
 # Competitive Hebbian Learning Rule Forms Perfectly Topology Preserving Maps
 
 ## 摘要
